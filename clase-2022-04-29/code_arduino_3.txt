@@ -55,7 +55,7 @@ void loop()
     {
       start = start1;
       stop = stop1;
-      if((counter >= start)||(counter>=stop1--))
+      if((counter >= start)||(counter>=stop))
       {
         // Lectura Analógica
         sensorValue = analogRead(Fot_Pin);
